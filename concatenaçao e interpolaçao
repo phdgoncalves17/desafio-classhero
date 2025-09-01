@@ -1,0 +1,14 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        string primeiroNome = "João";
+        string sobrenome = "Silva";
+
+        Console.WriteLine("Nome completo (concatenação): " + primeiroNome + " " + sobrenome);
+
+        Console.WriteLine($"Nome completo (interpolação): {primeiroNome} {sobrenome}");
+    }
+}
